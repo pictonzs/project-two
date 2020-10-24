@@ -12,7 +12,9 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 /* base styles */
 html {
-
+  font-family: 'Raleway', 'Hoefler Text', Georgia, 'Times New Roman', sans-serif;
+  font-size: 20px;
+  line-height: 25px;
 }
 
 /* layout styles */
