@@ -25,7 +25,10 @@ h1 {
 h2 {
   padding-top: 25px;
   font-weight: 600;
+}
 
+p {
+  text-indent: 37.5px;
 }
 
 /* layout styles */
