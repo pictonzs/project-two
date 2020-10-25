@@ -41,9 +41,21 @@ li {
   margin-top: 25px
 }
 
-ul.music {
-  list-style-type:circle;
+li.origin {
+  padding-left: 11.111px;
 }
+
+ul.artists {
+  padding-left: 16.667px
+}
+
+ul.music {
+  list-style-type: circle;
+}
+
+figcaption {
+  text-align: center;
+  }
 
 img {
   display: block;
