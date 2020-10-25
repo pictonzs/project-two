@@ -40,7 +40,7 @@ p {
 }
 
 li {
-  margin-top: 25px
+  margin-top: 25px;
 }
 
 li.origin, li.interpret, ul.info {
@@ -48,7 +48,7 @@ li.origin, li.interpret, ul.info {
 }
 
 ul.artists {
-  padding-left: 16.667px
+  padding-left: 16.667px;
 }
 
 ul.music {
