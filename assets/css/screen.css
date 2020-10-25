@@ -41,7 +41,7 @@ li {
   margin-top: 25px
 }
 
-li.origin {
+li.origin, li.interpret, ul.info {
   padding-left: 11.111px;
 }
 
