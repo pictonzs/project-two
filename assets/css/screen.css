@@ -41,9 +41,15 @@ li {
   margin-top: 25px
 }
 
+ul.music {
+  list-style-type:circle;
+}
+
 img {
   display: block;
   max-width: 100%;
+  border: 1px solid #EEE;
+  box-sizing: border-box;
 }
 
 /* layout styles */
