@@ -43,12 +43,17 @@ li {
   margin-top: 25px;
 }
 
-li.origin, li.interpret, ul.info {
+li.origin, li.interpret {
+  padding-left: 16.667px;
+}
+
+li.covers, ul.info {
   padding-left: 11.111px;
 }
 
 ul.artists {
-  padding-left: 16.667px;
+  padding-left: 25px;
+  list-style-type: circle;
 }
 
 ul.music {
