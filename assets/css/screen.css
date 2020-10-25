@@ -42,7 +42,7 @@ p {
 }
 
 li {
-  margin-top: 25px;
+  margin-top: 16px;
 }
 
 li.origin, li.interpret {
@@ -69,8 +69,6 @@ figcaption {
 img {
   display: block;
   max-width: 100%;
-  border: 1px solid #EEE;
-  box-sizing: border-box;
 }
 
 /* layout styles */
@@ -83,7 +81,11 @@ img {
   text-decoration:none;
   background:#f6eee1;
   color:#222;
-  padding:16.667px;
+  padding:16px;
+}
+
+.nav li {
+  padding-bottom: 16px;
 }
 
 .nav a:hover {
@@ -91,3 +93,25 @@ img {
 }
 
 /* state styles */
+
+@media screen and (min-width: 330px) {
+  .nav::after {
+    content: "";
+    display: block;
+    clear:both;
+    float: none;
+  }
+  .nav li {
+    float: left;
+    text-align: center;
+    width: 33.33333333333%;
+  }
+  h2 {
+    padding-top: 8px;
+  }
+
+  h3 {
+    padding-top:25px;
+    font-weight: 600;
+  }
+}
