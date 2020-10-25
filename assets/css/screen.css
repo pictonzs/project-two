@@ -79,15 +79,15 @@ img {
 /* Modular Styles */
 
 .nav a {
-  display: block;
-  text-decoration: none;
-  background: #f6eee1;
-  color: #222;
-  padding: 16.667px;
+  display:block;
+  text-decoration:none;
+  background:#f6eee1;
+  color:#222;
+  padding:16.667px;
 }
 
 .nav a:hover {
-  background: #ebdabc;
+  background:#ebdabc;
 }
 
 /* state styles */
