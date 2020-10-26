@@ -26,12 +26,12 @@ h1 {
 
 h2 {
   padding-top: 25px;
-  padding-bottom: 25px;
+  margin-bottom: 25px;
   font-weight: 600;
 }
 
 h3 {
-  padding-top:25px;
+  margin-top:25px;
   font-weight: 600;
 }
 
@@ -58,7 +58,7 @@ ul.artists {
   list-style-type: circle;
 }
 
-ul.music {
+ul.info {
   list-style-type: circle;
 }
 
@@ -69,6 +69,8 @@ figcaption {
 img {
   display: block;
   max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* layout styles */
