@@ -43,7 +43,7 @@ p {
 }
 
 li {
-  margin-top: 16px;
+  margin-top: 8px;
 }
 
 li.origin, li.interpret {
@@ -93,7 +93,7 @@ img {
 }
 
 .nav li {
-  padding-bottom: 16px;
+  padding-bottom: 25px;
 }
 
 .nav a:hover {
