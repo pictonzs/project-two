@@ -25,6 +25,7 @@ h1 {
 }
 
 h2 {
+  font-size: 26.66px;
   padding-top: 25px;
   margin-bottom: 25px;
   font-weight: 600;
@@ -49,13 +50,18 @@ li.origin, li.interpret {
   padding-left: 16.667px;
 }
 
-li.covers, ul.info {
+li.covers {
   padding-left: 11.111px;
 }
 
-ul.artists {
+ul.artists, ul.info {
   padding-left: 25px;
   list-style-type: circle;
+}
+
+ul.post{
+  padding-left: 37.5px;
+  list-style-type: square;
 }
 
 ul.info {
