@@ -54,15 +54,16 @@ li.covers {
   padding-left: 11.111px;
 }
 
-ul.artists, ul.info {
+ul.artists, ul.info, ol.schoolyear {
   padding-left: 25px;
   list-style-type: circle;
 }
 
 ul.post{
-  padding-left: 37.5px;
+  padding-left: 33.325px;
   list-style-type: square;
 }
+
 
 ul.info {
   list-style-type: circle;
@@ -120,7 +121,6 @@ img {
   }
 
   h3 {
-    padding-top:25px;
     font-weight: 600;
   }
 }
