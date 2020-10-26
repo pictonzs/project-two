@@ -60,6 +60,16 @@ ul.artists, ul.info, ol.schoolyear {
   list-style-type: circle;
 }
 
+ul.active {
+  padding-left: 25px;
+  list-style-type: circle;
+  padding-bottom: 11.111px;
+}
+
+li.active {
+  padding-bottom: 16.667px;
+}
+
 ul.post{
   padding-left: 33.325px;
   list-style-type: square;
