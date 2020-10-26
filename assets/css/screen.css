@@ -93,7 +93,7 @@ img {
 }
 
 .nav li {
-  padding-bottom: 25px;
+  padding-bottom: 18.5px;
 }
 
 .nav a:hover {
@@ -113,6 +113,7 @@ img {
     float: left;
     text-align: center;
     width: 33.33333333333%;
+    padding-bottom: 26.66px;
   }
   h2 {
     padding-top: 8px;
