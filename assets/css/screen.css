@@ -129,6 +129,9 @@ img {
 /* state styles */
 
 @media screen and (min-width: 330px) {
+  .nav {
+    display: flex;
+  }
   .nav::after {
     content: "";
     display: block;
@@ -139,12 +142,20 @@ img {
     float: left;
     text-align: center;
     width: 33.33333333333%;
-    padding-bottom: 26.66px;
+    padding-bottom: 25px;
+    flex: 1 1 auto
+    text-align: center;
+    margin-right:12px;
+  }
+  .nav a {
+    margin-right:12px;
+  }
+  .nav li:last-child {
+    margin-right: 0;
   }
   h2 {
     padding-top: 8px;
   }
-
   h3 {
     font-weight: 600;
   }
