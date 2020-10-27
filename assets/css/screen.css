@@ -18,86 +18,67 @@ html {
   background: #222;
   color: #D3D3D3;
 }
-
 h1 {
   font-size: 35.538px; /*two steps up modular scale */
   line-height: 50px;
 }
-
 h2 {
   font-size: 26.66px;
   padding-top: 25px;
   margin-bottom: 25px;
   font-weight: 600;
 }
-
 h3 {
   margin-top:25px;
   font-weight: 600;
   margin-bottom:25px;
 }
-
 h3.edu {
   margin-top: 16.667px;
 }
-
-
 h4 {
   padding-bottom: 16.667px;
 }
-
 h4.addy {
   padding-bottom: 16.667px;
 }
-
 p {
   text-indent: 37.5px;
   padding-left: 11.111px;
   padding-right: 11.111px;
 }
-
 li {
   margin-top: 8px;
 }
-
 li.origin, li.interpret {
   padding-left: 16.667px;
 }
-
 li.covers {
   padding-left: 11.111px;
 }
-
 ul.artists, ul.info, ol.schoolyear {
   padding-left: 25px;
   list-style-type: circle;
 }
-
 ul.active {
   padding-left: 25px;
   list-style-type: circle;
   padding-bottom: 11.111px;
 }
-
 li.active {
   padding-bottom: 16.667px;
 }
-
 ul.post{
   padding-left: 33.325px;
   list-style-type: square;
   padding-bottom: 2px;
 }
-
-
 ul.info {
   list-style-type: circle;
 }
-
 figcaption {
   text-align: center;
   }
-
 img {
   display: block;
   max-width: 100%;
@@ -109,7 +90,6 @@ img {
 
 
 /* Modular Styles */
-
 .nav a {
   display:block;
   text-decoration:none;
@@ -117,11 +97,9 @@ img {
   color:#222;
   padding:16.667px;
 }
-
 .nav li {
   padding-bottom: 12.5px;
 }
-
 .nav a:hover {
   background:#ebdabc;
 }
@@ -139,13 +117,21 @@ img {
     float: none;
   }
   .nav li {
-    float: left;
     text-align: center;
-    width: 33.33333333333%;
     padding-bottom: 25px;
+
+    /*Layout w/ floats */
+    float: left;
+    width: 33.33333333333%;
+
+    /* layout w/ flexbox*/
     flex: 1 1 auto
-    text-align: center;
-    margin-right:12px;
+  }
+
+  @supports (display: flex) {
+    .nav li {
+      width:auto;
+    }
   }
   .nav a {
     margin-right:12px;
