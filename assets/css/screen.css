@@ -115,11 +115,11 @@ img {
   text-decoration:none;
   background:#f6eee1;
   color:#222;
-  padding:16px;
+  padding:16.667px;
 }
 
 .nav li {
-  padding-bottom: 18.5px;
+  padding-bottom: 12.5px;
 }
 
 .nav a:hover {
