@@ -47,6 +47,9 @@ p {
   padding-left: 11.111px;
   padding-right: 11.111px;
 }
+p.subheader{
+  text-indent: 0px;
+}
 li {
   margin-top: 8px;
 }
@@ -98,7 +101,7 @@ img {
   padding:16.667px;
 }
 .nav li {
-  padding-bottom: 12.5px;
+  padding-bottom: 25px;
 }
 .nav a:hover {
   background:#ebdabc;
@@ -127,7 +130,6 @@ img {
     /* layout w/ flexbox*/
     flex: 1 1 auto
   }
-
   @supports (display: flex) {
     .nav li {
       width:auto;
@@ -144,6 +146,9 @@ img {
   }
   h3 {
     font-weight: 600;
+  }
+  p.subheader{
+    text-indent: 37.5px;
   }
 }
 
