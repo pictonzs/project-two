@@ -17,7 +17,25 @@ html {
   line-height: 25px; /*25/20=1.25*/
   background: #222;
   color: #D3D3D3;
+  padding: 24px;
 }
+
+@supports (display: grid) {
+  /* No L/R padding when we have grid...*/
+  html { padding: 24px 0; }
+}
+
+body {
+  /* ...because we'll use columns to keep the content away from the edge of the viewport */
+  display: grid;
+  grid-template-columns: minmax(24px,1fr) minmax(min-content,85ch) minmax(24px,1fr);
+}
+
+header, nav, main, footer {
+  grid-column:2/3;
+}
+
+
 h1 {
   font-size: 35.538px; /*two steps up modular scale */
   line-height: 50px;
