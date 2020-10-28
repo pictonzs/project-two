@@ -90,6 +90,9 @@ ul.active {
   list-style-type: circle;
   padding-bottom: 11.111px;
 }
+ul.caption {
+  padding-top: 9px;
+}
 li.active {
   padding-bottom: 16.667px;
 }
