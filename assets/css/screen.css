@@ -174,9 +174,31 @@ img {
   }
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 600px) {
   p {
     padding-left: 37.5px;
     padding-right: 37.5px;
+  }
+  figure::after,
+  section::after {
+    content: "";
+    display: block;
+    clear: both;
+    float: none;
+  }
+  figure img {
+    float: left;
+    width: 50%;
+  }
+  figure {
+    margin-bottom: 36px;
+    clear: both;
+    float: none;
+  }
+  figcaption {
+    padding-left: 52%; /* All browsers get this close-enough value... */
+    padding-left: calc(50% + 12px); /* calc()-supporting browsers get the precise value. */
+    padding-right: 12px;
+    text-align: left;
   }
 }
