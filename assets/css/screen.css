@@ -68,6 +68,10 @@ p {
 p.subheader{
   text-indent: 0px;
 }
+p.footer{
+  text-indent:0px;
+  text-align: center;
+}
 li {
   margin-top: 8px;
 }
