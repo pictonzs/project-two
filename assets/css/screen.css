@@ -35,7 +35,6 @@ header, nav, main, footer {
   grid-column:2/3;
 }
 
-
 h1 {
   font-size: 35.538px; /*two steps up modular scale */
   line-height: 50px;
@@ -81,8 +80,13 @@ li.active {
   padding-bottom: 16.667px;
 }
 
+li.artist,
 li.task {
   padding-top: 16.667px;
+}
+
+li.title {
+  padding-bottom:18px;
 }
 
 ul.info {
@@ -94,31 +98,33 @@ ul.active {
   padding-left: 25px;
   list-style-type: circle;
   padding-bottom: 11.111px;
-
-
 }
 ul.post {
   padding-left: 33.325px;
   list-style-type: square;
   padding-bottom: 2px;
-
 }
+ul.artists,
 ul.tasks {
   padding-left: 44.422px;
-  /*margin-top:25px;*/
   list-style-type: circle;
-
 }
 img {
   display: block;
   max-width: 100%;
+  height: auto;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 18px;
-  padding-bottom: 6px;
+  padding-bottom: 25px;
 }
 section.break {
   padding-bottom: 16.667px;
+}
+figure {
+  padding-bottom: 15px;
+}
+figure.specOne {
+  padding-bottom:19px;
 }
 
 
