@@ -50,6 +50,7 @@ h3 {
   margin-top:25px;
   font-weight: 600;
   margin-bottom:25px;
+
 }
 h3.edu {
   margin-top: 16.667px;
@@ -75,45 +76,51 @@ p.footer{
 li {
   margin-top: 8px;
 }
-li.origin, li.interpret {
-  padding-left: 16.667px;
+
+li.active {
+  padding-bottom: 16.667px;
 }
-li.covers {
-  padding-left: 11.111px;
+
+li.task {
+  padding-top: 16.667px;
 }
-ul.artists, ul.info, ol.schoolyear {
-  padding-left: 25px;
+
+ul.info {
+  padding-left: 30px;
   list-style-type: circle;
+
 }
 ul.active {
   padding-left: 25px;
   list-style-type: circle;
   padding-bottom: 11.111px;
+
+
 }
-ul.caption {
-  padding-top: 9px;
-}
-li.active {
-  padding-bottom: 16.667px;
-}
-ul.post{
+ul.post {
   padding-left: 33.325px;
   list-style-type: square;
   padding-bottom: 2px;
+
 }
-ul.info {
+ul.tasks {
+  padding-left: 44.422px;
+  /*margin-top:25px;*/
   list-style-type: circle;
+
 }
-figcaption {
-  text-align: center;
-  }
 img {
   display: block;
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
   padding-top: 18px;
+  padding-bottom: 6px;
 }
+section.break {
+  padding-bottom: 16.667px;
+}
+
 
 /* layout styles */
 
