@@ -39,39 +39,47 @@ h1 {
   font-size: 35.538px; /*two steps up modular scale */
   line-height: 50px;
 }
+
 h2 {
   font-size: 26.66px;
   padding-top: 25px;
   margin-bottom: 25px;
   font-weight: 600;
 }
+
 h3 {
   margin-top:25px;
   font-weight: 600;
   margin-bottom:25px;
-
 }
+
 h3.edu {
   margin-top: 16.667px;
 }
+
 h4 {
   padding-bottom: 16.667px;
 }
+
 h4.addy {
   padding-bottom: 16.667px;
 }
+
 p {
   text-indent: 37.5px;
   padding-left: 11.111px;
   padding-right: 11.111px;
 }
+
 p.subheader{
   text-indent: 0px;
 }
+
 p.footer{
   text-indent:0px;
   text-align: center;
 }
+
 li {
   margin-top: 8px;
 }
@@ -92,8 +100,8 @@ li.title {
 ul.info {
   padding-left: 30px;
   list-style-type: circle;
-
 }
+
 ul.active {
   padding-left: 25px;
   list-style-type: circle;
