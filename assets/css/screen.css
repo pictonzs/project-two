@@ -120,12 +120,20 @@ img {
 section.break {
   padding-bottom: 16.667px;
 }
-figure {
-  padding-bottom: 15px;
+figure.alice,
+figure.misty {
+  padding-bottom: 16.667px;
 }
-figure.specOne {
-  padding-bottom:19px;
+figure.rhapsody,
+figure.polkadots,
+figure.prince {
+  padding-bottom: 20px;
 }
+figure.rose,
+figure.central {
+  padding-bottom:18px;
+}
+
 
 
 /* layout styles */
