@@ -1,18 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;1,300;1,400&display=swap');
-@import url('//basehold.it/25');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;1,300;1,400&display=swap");
+@import url("//basehold.it/25");
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
 /* stylelint-disable */
-a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section{display:block}html{line-height:1}body{line-height:inherit}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section{display:block}html,.stylelint{line-height:1}body,.stylelint{line-height:inherit}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
 /* stylelint-enable */
 
 /* Begin site styles below */
 
 /* base styles */
 html {
-  font-family: 'Raleway', 'Hoefler Text', Georgia, 'Times New Roman', sans-serif;
+  font-family: Raleway, "Hoefler Text", Georgia, "Times New Roman", sans-serif;
   font-size: 1.25em; /* 20/16=1.25*/
   line-height: 1.25em; /*25/20=1.25*/
   background: #222;
@@ -32,7 +32,7 @@ body {
 }
 
 header, nav, main, footer {
-  grid-column:2/3;
+  grid-column: 2/3;
 }
 
 h1 {
@@ -42,59 +42,59 @@ h1 {
 
 h2 {
   font-size: 1.333em; /* 26.66/20=1.333 */
-  padding-top:.9377344336em; /*25/26.66=.9377344336 */
-  margin-bottom: .9377344336em; /*25/26.66=.9377344336 */
+  padding-top: 0.9377344336em; /*25/26.66=.9377344336 */
+  margin-bottom: 0.9377344336em; /*25/26.66=.9377344336 */
   font-weight: 600;
 }
 
 h3 {
-  margin-top:1.25em; /*25/20=1.25*/
-  margin-bottom:1.25em; /*25/20=1.25*/
+  margin-top: 1.25em; /*25/20=1.25*/
+  margin-bottom: 1.25em; /*25/20=1.25*/
   font-weight: 600;
 }
 
 h3.edu {
-  margin-top: .83335em; /*16.667/20=.83335*/
+  margin-top: 0.83335em; /*16.667/20=.83335*/
 }
 
 h4 {
-  padding-bottom:.83335em;/*16.667/20=.83335*/
+  padding-bottom: 0.83335em;/*16.667/20=.83335*/
 }
 
 h4.addy {
-  padding-bottom: .83335em;/*16.667/20=.83335*/
+  padding-bottom: 0.83335em;/*16.667/20=.83335*/
 }
 
 p {
   text-indent: 1.875em; /*37.5/20=1.875*/
-  padding-left: .55555em; /*11.111/20=.55555*/
-  padding-right: .55555em; /*11.111/20=.55555*/
+  padding-left: 0.55555em; /*11.111/20=.55555*/
+  padding-right: 0.55555em; /*11.111/20=.55555*/
 }
 
-p.subheader{
-  text-indent: 0em;
+p.subheader {
+  text-indent: 0;
 }
 
-p.footer{
-  text-indent:0em;
+p.footer {
+  text-indent: 0;
   text-align: center;
 }
 
 li {
-  margin-top: .4em; /*8/20=.4*/
+  margin-top: 0.4em; /*8/20=.4*/
 }
 
 li.active {
-  padding-bottom: .83335em; /*16.667/20=.83335*/
+  padding-bottom: 0.83335em; /*16.667/20=.83335*/
 }
 
 li.artist,
 li.task {
-  padding-top: .83335em; /*16.667/20=.83335*/
+  padding-top: 0.83335em; /*16.667/20=.83335*/
 }
 
 li.title {
-  padding-bottom:.9em;  /*18/20=.9*/
+  padding-bottom: 0.9em;  /*18/20=.9*/
 }
 
 ul.info {
@@ -103,14 +103,14 @@ ul.info {
 }
 
 ul.active {
-  padding-left:1em; /*25/25=1.25*/
-  padding-bottom:.44444em; /*11.111/25=.44444*/
+  padding-left: 1em; /*25/25=1.25*/
+  padding-bottom: 0.44444em; /*11.111/25=.44444*/
   list-style-type: circle;
 }
 ul.post {
   padding-left: 1.333em;/*33.325/25=1.333*/
   list-style-type: square;
-  padding-bottom: .0600150038em; /*2/33.325=.0600150038*/
+  padding-bottom: 0.0600150038em; /*2/33.325=.0600150038*/
 }
 ul.artists,
 ul.tasks {
@@ -126,20 +126,20 @@ img {
   padding-bottom: 1.25em; /*25/20=1.25*/
 }
 section.break {
-  padding-bottom: .83335em; /*16.667/20=.83335*/
+  padding-bottom: 0.83335em; /*16.667/20=.83335*/
 }
 figure.alice,
 figure.misty {
-  padding-bottom: .83335em;  /*16.667/20=.83335*/
+  padding-bottom: 0.83335em;  /*16.667/20=.83335*/
 }
 figure.rhapsody,
 figure.polkadots,
 figure.prince {
-  padding-bottom:1em; /*20/20=1*/
+  padding-bottom: 1em; /*20/20=1*/
 }
 figure.rose,
 figure.central {
-  padding-bottom:.9em; /*18/20=.9*/
+  padding-bottom: 0.9em; /*18/20=.9*/
 }
 
 
@@ -149,29 +149,29 @@ figure.central {
 
 /* Modular Styles */
 .nav a {
-  display:block;
-  text-decoration:none;
-  background:#f6eee1;
-  color:#222;
-  padding:.83335em; /*16.667/20=.83335*/
+  display: block;
+  text-decoration: none;
+  background: #f6eee1;
+  color: #222;
+  padding: 0.83335em; /*16.667/20=.83335*/
 }
 .nav li {
   padding-bottom: 1.25em; /*25/20=1.25*/
 }
 .nav a:hover {
-  background:#ebdabc;
+  background: #ebdabc;
 }
 
 /* state styles */
 
-@media screen and (min-width: 330px) {
+@media screen and (min-width: 20.625em) { /*330/16=20.625*/
   .nav {
     display: flex;
   }
   .nav::after {
     content: "";
     display: block;
-    clear:both;
+    clear: both;
     float: none;
   }
   .nav li {
@@ -183,31 +183,31 @@ figure.central {
     width: 33.33333333333%;
 
     /* layout w/ flexbox*/
-    flex: 1 1 auto
+    flex: 1 1 auto;
   }
   @supports (display: flex) {
     .nav li {
-      width:auto;
+      width: auto;
     }
   }
   .nav a {
-    margin-right:.6em; /*12/20=.6*/
+    margin-right: 0.6em; /*12/20=.6*/
   }
   .nav li:last-child {
     margin-right: 0;
   }
   h2 {
-    padding-top: .4em; /*8/20=.4*/
+    padding-top: 0.4em; /*8/20=.4*/
   }
   h3 {
     font-weight: 600;
   }
-  p.subheader{
+  p.subheader {
     text-indent: 1.875em; /*37.5/20=1.875*/
   }
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 37.5em) { /*600/16=37.5*/
   p {
     padding-left: 1.875em; /*37.5/20=1.875*/
     padding-right: 1.875em; /*37.5/20=1.875*/
@@ -229,9 +229,9 @@ figure.central {
     float: none;
   }
   figcaption {
-    padding-left: 52%; /* All browsers get this close-enough value... */
-    padding-left: calc(50% + 12px); /* calc()-supporting browsers get the precise value. */
-    padding-right: .6em; /*12/20=.6*/
+    /*padding-left: 52%; /* All browsers get this close-enough value... */
+    padding-left: calc(50% + 1.666666666666666666em); /* calc()-supporting browsers get the precise value. */
+    padding-right: 0.6em; /*12/20=.6*/
     text-align: left;
   }
 }
