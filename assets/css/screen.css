@@ -110,7 +110,7 @@ ul.active {
 ul.post {
   padding-left: 1.333em;/*33.325/25=1.333*/
   list-style-type: square;
-  padding-bottom: 0.0600150038em; /*2/33.325=.0600150038*/
+  padding-bottom: 0.1em; /*2/20=0.1*/
 }
 ul.artists,
 ul.tasks {
@@ -153,10 +153,10 @@ figure.central {
   text-decoration: none;
   background: #f6eee1;
   color: #222;
-  padding: 0.83335em; /*16.667/20=.83335*/
+  padding: 0.75em; /*15/20=.75*/
 }
 .nav li {
-  padding-bottom: 1.25em; /*25/20=1.25*/
+  padding-bottom: 1.666666666666666666em; /*25/20=1.25*/
 }
 .nav a:hover {
   background: #ebdabc;
