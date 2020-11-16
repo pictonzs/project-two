@@ -71,10 +71,6 @@ p {
   padding-right: 0.55555em; /*11.111/20=.55555*/
 }
 
-p.subheader {
-  text-indent: 0;
-}
-
 p.footer {
   text-indent: 0;
   text-align: center;
@@ -142,7 +138,9 @@ figure.central {
   padding-bottom: 0.9em; /*18/20=.9*/
 }
 
-
+p.subheader {
+  text-indent: 0;
+}
 
 /* layout styles */
 
@@ -202,9 +200,7 @@ figure.central {
   h3 {
     font-weight: 600;
   }
-  p.subheader {
-    text-indent: 1.875em; /*37.5/20=1.875*/
-  }
+
 }
 
 @media screen and (min-width: 37.5em) { /*600/16=37.5*/
