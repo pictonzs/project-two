@@ -15,7 +15,7 @@ html {
   font-family: Raleway, "Hoefler Text", Georgia, "Times New Roman", sans-serif;
   font-size: 1.25em; /* 20/16=1.25*/
   line-height: 1.25em; /*25/20=1.25*/
-  background: #222;
+  background-color: #222;
   color: #D3D3D3;
   padding: 1em; /*25/25=1*/
 }
@@ -29,6 +29,7 @@ body {
   /* ...because we'll use columns to keep the content away from the edge of the viewport */
   display: grid;
   grid-template-columns: minmax(1em,1fr /*25/25=1*/) minmax(min-content,85ch) minmax(1em,1fr /*25/25=1*/);
+
 }
 
 header, nav, main, footer {
@@ -69,6 +70,10 @@ p {
   text-indent: 1.875em; /*37.5/20=1.875*/
   padding-left: 0.55555em; /*11.111/20=.55555*/
   padding-right: 0.55555em; /*11.111/20=.55555*/
+}
+
+p.subheader {
+  text-indent: 0;
 }
 
 p.footer {
@@ -138,9 +143,7 @@ figure.central {
   padding-bottom: 0.9em; /*18/20=.9*/
 }
 
-p.subheader {
-  text-indent: 0;
-}
+
 
 /* layout styles */
 
@@ -208,6 +211,11 @@ p.subheader {
     padding-left: 1.875em; /*37.5/20=1.875*/
     padding-right: 1.875em; /*37.5/20=1.875*/
   }
+  p.subheader {
+    text-indent: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
   figure::after,
   section::after {
     content: "";
@@ -229,5 +237,24 @@ p.subheader {
     padding-left: calc(50% + 1.666666666666666666em); /* calc()-supporting browsers get the precise value. */
     padding-right: 0.6em; /*12/20=.6*/
     text-align: left;
+  }
+
+@media screen and (min-width: 800px) {
+  html {
+    background-color: #191919;
+    color: #D3D3D3;
+  }
+
+  head {
+    background-color: #222222;
+    color: #D3D3D3;
+  }
+
+  header, nav, main, footer {
+    background-color: #222222;
+    color: #D3D3D3;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
   }
 }
