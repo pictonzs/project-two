@@ -92,6 +92,7 @@ li.active {
 li.artist,
 li.task {
   padding-top: 0.83335em; /*16.667/20=.83335*/
+  padding-right: 0px;
 }
 
 li.title {
@@ -238,6 +239,7 @@ figure.central {
     padding-right: 0.6em; /*12/20=.6*/
     text-align: left;
   }
+}
 
 @media screen and (min-width: 800px) {
   html {
@@ -256,5 +258,10 @@ figure.central {
     padding-left: 15px;
     padding-right: 15px;
   }
+}
+
+@media screen and (min-width:1000px) {
+  li.task, li.active {
+    padding-right: 150px;
   }
 }
