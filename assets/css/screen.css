@@ -260,7 +260,7 @@ figure.central {
   }
 }
 
-@media screen and (min-width:1000px) {
+@media screen and (min-width:850px) {
   li.task, li.active {
     padding-right: 150px;
   }
