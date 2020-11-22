@@ -241,7 +241,7 @@ figure.central {
   }
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width:850px) {
   html {
     background-color: #191919;
     color: #D3D3D3;
@@ -258,9 +258,7 @@ figure.central {
     padding-left: 15px;
     padding-right: 15px;
   }
-}
 
-@media screen and (min-width:850px) {
   li.task, li.active {
     padding-right: 150px;
   }
