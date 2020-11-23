@@ -252,7 +252,7 @@ figure.central {
   }
 }
 
-@media screen and (min-width:53.125em) { /*850/16=53.125*/
+@media screen and (min-width: 53.125em) { /*850/16=53.125*/
   html {
     background-color: #191919;
     color: #D3D3D3;
@@ -266,8 +266,8 @@ figure.central {
   header, nav, main, footer {
     background-color: #222222;
     color: #D3D3D3;
-    padding-left: .75em; /*15/20=0.75*/
-    padding-right: .75em; /*15/20=0.75*/
+    padding-left: 0.75em; /*15/20=0.75*/
+    padding-right: 0.75em; /*15/20=0.75*/
   }
 
   li.task, li.active {
